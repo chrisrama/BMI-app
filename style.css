@@ -16,5 +16,6 @@ input {
 
 }
 html {
-  background-color: rgb(231, 219, 43);
+  background-color: rgb(43, 225, 231);
+  //background: var(--main-decor-color);
 }
