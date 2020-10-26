@@ -2,7 +2,7 @@ function calculate() {
   
   const myweight  = document.getElementById("weight").value;
   const myheight  = document.getElementById("height").value;
-   const bmiValue = myweight/(myheight^2);
+   const bmiValue = myweight/(myheight*myheight);
   console.log(bmiValue.toFixed(2));
 //document.getElementById("diagnosis").innerHTML = "You are under weight";
 //document.getElementById("number").innerHTML = bmiValue;
